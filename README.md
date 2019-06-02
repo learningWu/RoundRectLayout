@@ -3,7 +3,7 @@
 
 ## 效果图
 
-![效果图](https://img-blog.csdnimg.cn/20190531155835360.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FsZWFybmluZ1d1,size_16,color_FFFFFF,t_70)
+![效果图](https://github.com/learningWu/RoundRectLayout/blob/master/app/image/effect.png?raw=true)
 
 ## 使用方法
 **属性：**
