@@ -30,6 +30,3 @@ ImageView
                 android:layout_height="100dp"
                 android:background="@mipmap/spid" />
         </com.eddie.roundrectlayout.view.RoundRectLayout>
-
-
-                android:layout_height="wrap_content"
