@@ -21,9 +21,7 @@ ImageView
       <com.eddie.roundrectlayout.view.RoundRectLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:round="20dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:round="20dp">
 
             <ImageView
                 android:layout_width="100dp"
