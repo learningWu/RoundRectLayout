@@ -30,3 +30,5 @@ ImageView
                 android:layout_height="100dp"
                 android:background="@mipmap/spid" />
         </com.eddie.roundrectlayout.view.RoundRectLayout>
+
+只需要在需要圆角的view和ViewGroup外面套上RoundRectLayout即可
