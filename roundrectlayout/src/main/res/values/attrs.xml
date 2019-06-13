@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundRectLayout">
+        <attr name="round" format="dimension"/>
+        <attr name="leftTopRound" format="dimension" />
+        <attr name="rightTopRound" format="dimension" />
+        <attr name="leftBottomRound" format="dimension" />
+        <attr name="rightBottomRound" format="dimension" />
+    </declare-styleable>
+</resources>
