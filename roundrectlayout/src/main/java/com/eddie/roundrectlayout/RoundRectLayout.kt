@@ -66,4 +66,11 @@ class RoundRectLayout(context: Context) : FrameLayout(context) {
         //4.
         super.dispatchDraw(canvas)
     }
+
+    /**
+     * 优化子控件点击体验
+     */
+    override fun shouldDelayChildPressedState(): Boolean {
+        return false
+    }
 }
