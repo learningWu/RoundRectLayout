@@ -27,7 +27,7 @@
             android:textColor="@color/font"
             android:textSize="20sp" />
 
-        <com.eddie.roundrectlayout.view.RoundRectLayout
+        <com.eddie.roundrectlayout.RoundRectLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:round="20dp"
@@ -38,7 +38,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="@mipmap/spid" />
-        </com.eddie.roundrectlayout.view.RoundRectLayout>
+        </com.eddie.roundrectlayout.RoundRectLayout>
 
     </LinearLayout>
 
@@ -61,7 +61,7 @@
             android:textColor="@color/font"
             android:textSize="20sp" />
 
-        <com.eddie.roundrectlayout.view.RoundRectLayout
+        <com.eddie.roundrectlayout.RoundRectLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:leftTopRound="20dp"
@@ -75,7 +75,7 @@
                 android:padding="20dp"
                 android:background="@color/white"
                 android:text="TextView：有种把我圆角" />
-        </com.eddie.roundrectlayout.view.RoundRectLayout>
+        </com.eddie.roundrectlayout.RoundRectLayout>
 
     </LinearLayout>
 
@@ -98,7 +98,7 @@
             android:textColor="@color/font"
             android:textSize="20sp" />
 
-        <com.eddie.roundrectlayout.view.RoundRectLayout
+        <com.eddie.roundrectlayout.RoundRectLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:leftBottomRound="20dp"
@@ -125,7 +125,7 @@
                     android:layout_centerInParent="true"
                     android:background="@drawable/ic_launcher_background" />
             </RelativeLayout>
-        </com.eddie.roundrectlayout.view.RoundRectLayout>
+        </com.eddie.roundrectlayout.RoundRectLayout>
 
     </LinearLayout>
 
