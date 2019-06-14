@@ -13,7 +13,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -26,15 +26,21 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 repositories {
     mavenCentral()
+}
+
+apply plugin: 'com.novoda.bintray-release'
+//添加
+publish {
+    userOrg = 'eddiezx'//bintray用户名
+    repoName = 'Android'//要传到的maven的名字。你可能有多个maven，要传哪个写哪个。
+    groupId = 'com.eddiezx'//jcenter上的路径
+    artifactId = 'RoundRectLayout'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = 'flexible RoundRectLayout'//描述
+    website = 'https://github.com/learningWu/RoundRectLayout'//网站，不重要；尽量模拟github上的地址
 }
